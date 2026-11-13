@@ -1,0 +1,8 @@
+[package]
+name = "ecou-spectral-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Alexandru-Ionuț Chiuță (Alexio) <alexio@trom.tf>"]
+
+[dependencies]

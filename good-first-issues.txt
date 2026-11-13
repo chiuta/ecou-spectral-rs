@@ -1,0 +1,10 @@
+Replace the placeholder `main.rs` with a WAV loader (hound crate)
+Implement STFT with a Hann window (rustfft) and unit-test it against a sine wave
+Implement inverse STFT with overlap-add and check perfect reconstruction
+Add a spectral-subtraction denoise plugin
+Add a simple energy-based voice-activity detector plugin
+Render the spectrogram to PNG (image crate) from the CLI
+Define the plugin ABI (trait object vs. WASM) in docs/plugins.md
+Add a CLI `--select t0-t1,f0-f1 --delete` for time-frequency regions
+Set up cross-platform CI (Windows, macOS, Linux)
+Add FLAC and MP3 input via symphonia

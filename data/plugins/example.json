@@ -1,0 +1,7 @@
+{
+  "id": "noise-gate",
+  "name": "Noise gate",
+  "version": "0.1.0",
+  "kind": "denoise",
+  "description": "Silences spectrogram bins below a fixed threshold."
+}
