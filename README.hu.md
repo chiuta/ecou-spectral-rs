@@ -2,13 +2,27 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-Verzió: 0.1.0 · Utolsó frissítés: 2026-11-13
+Verzió: 0.1.0 · Utolsó frissítés: 2026-11-14
 
 🌐 https://ecou-spectral-rs.chiuta.ro
 
 > Natív Rust spektrogramszerkesztő zajcsökkentő és hangdetektáló bővítményekkel.
 
 Trade-free: nincs követés, nincs reklám, nincs fiók, offline is működik.
+
+## Állapot
+
+Alfa: a tároló a szerkezetet, az adatsémát vagy az első példákat és a közreműködési útmutatókat tartalmazza. Az alábbi terjedelem a terv, nem a ma működő állapot.
+
+## Tervezett terjedelem
+
+- WAV-betöltő (hound), Hann-ablakos STFT (rustfft) szinuszhullámmal tesztelve, és inverz STFT overlap-add eljárással, tökéletes rekonstrukcióval.
+- A spektrogram PNG-be renderelése parancssorból.
+- Bővítmények: spektrális kivonásos zajcsökkentés és energiaalapú beszédaktivitás-érzékelő, a bővítmények ABI-ja (trait objektum vagy WASM) a `docs/plugins.md` fájlban.
+- CLI-kijelölés (`--select t0-t1,f0-f1 --delete`) idő–frekvencia tartományokhoz.
+- FLAC és MP3 bemenet a symphonia-val, és többplatformos CI (Windows, macOS, Linux).
+
+Ezek közül még semmi sincs megvalósítva: minden pont kész feladat az `ISSUES_GOOD_FIRST.md` fájlban.
 
 ## Járulj hozzá 5 perc alatt
 
