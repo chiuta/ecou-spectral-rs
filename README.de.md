@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Letzte Aktualisierung: 2026-11-13
 
+🌐 https://ecou-spectral-rs.chiuta.ro
+
 > Nativer Spektrogramm-Editor in Rust mit Plugins für Rauschminderung und Spracherkennung.
 
 Trade-free: kein Tracking, keine Werbung, keine Konten, funktioniert offline.

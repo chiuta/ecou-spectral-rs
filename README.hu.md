@@ -4,6 +4,8 @@
 
 Verzió: 0.1.0 · Utolsó frissítés: 2026-11-13
 
+🌐 https://ecou-spectral-rs.chiuta.ro
+
 > Natív Rust spektrogramszerkesztő zajcsökkentő és hangdetektáló bővítményekkel.
 
 Trade-free: nincs követés, nincs reklám, nincs fiók, offline is működik.

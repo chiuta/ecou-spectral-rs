@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Last updated: 2026-11-13
 
+🌐 https://ecou-spectral-rs.chiuta.ro
+
 > A native Rust spectrogram editor with plugins for noise reduction and voice detection.
 
 Trade-free: no tracking, no ads, no accounts, works offline.
